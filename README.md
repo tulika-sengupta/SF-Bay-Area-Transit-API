@@ -2,13 +2,16 @@
 
 PROGRAMMING LANGUAGE:
 Python 3.0
+
 REQUIREMENTS:
 1)	Localtunnel
 2)	Used Rest API to query Elastic Search in Python.
+
 SLACK CONFIGURATION:
 1)	In order to establish communication between my local computer and slack, I have used “localtunnel”. The localtunnel will provide me with a temporary domain name. 
 2)	Now go to the “Edit Configuration” page of Slash Comands, and enter the above mentioned URL followed by the slash command “/slack511” in the URL parameter. 
 3)	This will help Slack in communicating with my local PC.
+
 HOW TO RUN THE PROJECT:
 1)	Open project Slack511.
 2)	Run “main.py”
