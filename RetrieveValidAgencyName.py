@@ -4,7 +4,6 @@ import timeit
 
 agency = ""
 
-
 def getAgencyName(root, agencyName):
     for child in root.findall(".//{http://www.netex.org.uk/netex}SiriOperatorRef"):
         if child.text == agencyName:

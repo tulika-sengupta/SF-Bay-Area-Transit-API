@@ -14,10 +14,8 @@ class Slack511(webapp2.RequestHandler):
 
     def post(self):
         """Receives a POST request"""
-        print ("From Slack.")
         stopCode = self.request.get('text')
         findAgency(stopCode, self)
-        print ("Response url is: ",self.request.get('response_url'))
 
 
 app = webapp2.WSGIApplication([
